@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <name>calibration_tf2</name>
+  <version>0.0.1</version>
+  <description>The calibration_tf2 package</description>
+
+  <maintainer email="mep12sr@sheffield.ac.uk">Stephen</maintainer>
+  <license>BSD</license>
+  
+  <author email="mep12sr@sheffield.ac.uk">Stephen Reddish</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+<build_depend>cmake_modules</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf_conversions</build_depend>
+
+<run_depend>cmake_modules</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>tf_conversions</run_depend>
+
+</package>
